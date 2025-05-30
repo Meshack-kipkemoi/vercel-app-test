@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome | QuickPrimeTech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in {
+        animation: fadeIn 1.2s ease-out forwards;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-tr from-gray-900 via-indigo-900 to-black flex items-center justify-center p-6"
+  >
+    <div
+      class="max-w-3xl w-full bg-white/10 backdrop-blur-md rounded-md shadow-xl border border-white/20 text-white p-10 animate-fade-in"
+    >
+      <h1
+        class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-indigo-500 to-purple-500"
+      >
+        Brought to you in courtesy of QuickPrimeTech
+      </h1>
+
+      <p class="mt-6 text-lg md:text-xl text-white/80">
+        Delivering elegant software experiences built on precision, creativity,
+        and performance. Welcome to the future of innovation.
+      </p>
+
+      <div class="mt-10 flex flex-col md:flex-row items-center gap-4">
+        <a
+          href="#"
+          class="px-6 py-3 bg-gradient-to-br from-purple-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
+        >
+          Explore More
+        </a>
+        <span class="text-sm text-white/60">
+          Empowering possibilities, one solution at a time.
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
